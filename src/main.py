@@ -1,12 +1,11 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-from utils.visualizer import Visualizer
 
-from modules.comparison_engine import ComparisonEngine
-from modules.data_analyzer import DataAnalyzer
-from modules.imputation_engine import ImputationEngine
-from modules.missing_detector import MissingDetector
+from models.comparison_engine import ComparisonEngine
+from models.data_analyzer import DataAnalyzer
+from models.imputation_engine import ImputationEngine
+from models.missing_detector import MissingDetector
 
 st.set_page_config(page_title="Imputation Manager", layout="wide")
 

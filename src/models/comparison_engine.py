@@ -5,7 +5,8 @@ import pandas as pd
 import streamlit as st
 from scipy import stats
 from sklearn.metrics import accuracy_score, mean_squared_error
-from utils.visualizer import Visualizer
+
+from .visualizer import Visualizer
 
 
 class ComparisonEngine:

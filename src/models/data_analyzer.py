@@ -1,11 +1,13 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-from utils.visualizer import Visualizer
+from pandas import DataFrame
+
+from .visualizer import Visualizer
 
 
 class DataAnalyzer:
-    def __init__(self, df):
+    def __init__(self, df: DataFrame):
         self.df = df
         self.visualizer = Visualizer()
 
