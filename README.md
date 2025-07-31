@@ -66,3 +66,5 @@ streamlit run src/main.py
 ```
 
 The app will open in your browser at `http://localhost:8501`
+
+## [DEPLOY LINK](https://imputation-of-missing-data-app-yk39g95viapbibuy2jdpgs.streamlit.app/)
